@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Text to Speech</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-position:center bottom;
+background-image: url(:/newPrefix/11.png);
+background-repeat:no-repeat;
+background-attachment:fixed;</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="appTitle">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>581</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>POLYA Regular</family>
+      <pointsize>45</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 254, 252);
+font: 45pt &quot;POLYA Regular&quot;;
+background-image: url(none);</string>
+    </property>
+    <property name="text">
+     <string>Text To Speech </string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="textArea">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>220</y>
+      <width>491</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:Agne;
+padding:8px;
+color:rgb(252, 252, 252);
+font-size:20px;
+border-radius:15px;
+border:2px solid white;
+background:rgb(59, 15, 171);</string>
+    </property>
+    <property name="plainText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="convertBtn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>390</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:Agne;
+padding:8px;
+color:rgb(0, 254, 252);
+font-size:20px;
+border-radius:15px;
+border:2px solid white;
+background:rgb(59, 15, 171);</string>
+    </property>
+    <property name="text">
+     <string>Convert to Audio</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="Mohamad's File/Courses/PythonProjects/T07_text_to_speech_app/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>

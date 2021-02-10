@@ -1,6 +1,6 @@
 # Python Application: Unit Converter used to convert between feet and meter and vice versa ! 
 
-![alt text](https://github.com/AI-MOO/PythonProjects/blob/master/T08_unit_converter_ft_to_m/images_for_explaination/1.png)
+![alt text](https://github.com/AI-MOO/PythonProjects/blob/master/T08_unit_converter_ft_to_m/images_for_explination/1.png)
 
 
 
@@ -17,4 +17,4 @@
 
 **you will fine the .exe file in dist directory** 
 
-![alt text](https://github.com/AI-MOO/PythonProjects/blob/master/T08_unit_converter_ft_to_m/images_for_explaination/2.png)
+![alt text](https://raw.githubusercontent.com/AI-MOO/PythonProjects/master/T08_unit_converter_ft_to_m/images_for_explination/2.png)

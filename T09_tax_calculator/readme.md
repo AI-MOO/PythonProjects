@@ -1,6 +1,6 @@
 # Python Application: Tax Calculator Application ! 
 
-![alt text](https://github.com/AI-MOO/PythonProjects/blob/master/T09_tax_calculator/images_for_explaination/1.png)
+![alt text](https://github.com/AI-MOO/PythonProjects/blob/master/T09_tax_calculator/images_for_explination/1.png)
 
 
 
@@ -17,4 +17,4 @@
 
 **you will fine the .exe file in dist directory** 
 
-![alt text](https://github.com/AI-MOO/PythonProjects/blob/master/T09_tax_calculator/images_for_explaination/2.png)
+![alt text](https://github.com/AI-MOO/PythonProjects/blob/master/T09_tax_calculator/images_for_explination/2.png)

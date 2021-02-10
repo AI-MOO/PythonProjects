@@ -31,21 +31,21 @@ class TaxCalculator():
         tax_30 = Radiobutton(window, text = "30%", variable = self.tax_percent,  value = 30, bg = "#9f86c0" )
         tax_30.grid(column = 0 , row = 6)
 
-         # Bill amount label & Entry field
+        # Bill Amount label & Entry field
         bill_amount = Label(window,text = "Bill Amount", width = 20, bg="#c12a35", fg = "white")
         bill_amount.grid(column = 1, row = 0, padx = 20, pady = 20)
         bill_amount_entry = Entry(window,textvariable = self.products_cost, width = 20)
         bill_amount_entry.grid(column = 2, row = 0, padx = 20, pady = 20)
 
 
-         # Tax amount label & Entry field
+        # Tax Amount label & Entry field
         Tax_amount_lbl = Label(window, text = "Tax Amount",width = 20, bg = "#c12a35", fg = "white")
         Tax_amount_lbl.grid(column = 1, row = 2)
         Tax_amount_entry = Entry(window,textvariable = self.tax, width = 20)
         Tax_amount_entry.grid(column = 2, row = 2)
         
         
-        # Tax amount label & Entry field
+        #Total Cost label & Entry field
         bill_total_lbl = Label(window, text = "Total Cost",width = 20, bg = "#c12a35", fg = "white")
         bill_total_lbl.grid(column = 1, row = 4)
         bill_total_entry = Entry(window,textvariable = self.total_cost, width = 20)
@@ -55,7 +55,7 @@ class TaxCalculator():
         calculate_btn = Button(window, text = "Calculate",width = 15, bg = "#660033", fg = "white", command = self.calculate)
         calculate_btn.grid(column = 2 , row = 6)
 
-        # Calculate Button       
+        # Clear Button       
         clear_btn = Button(window, text = "Clear", width = 20, bg = "#660033", fg = "white", command = self.clear)
         clear_btn.grid(column = 1 , row = 6 )
     

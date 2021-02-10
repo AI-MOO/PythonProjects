@@ -17,5 +17,5 @@
 
 **4- Run the python file and specify your password limit as shown below**
 
-![alt text](https://github.com/AI-MOO/PythonProjects/blob/master/T06_password_generator_ui/images_for_explaination/1.png?raw=true)
+![alt text](https://github.com/AI-MOO/PythonProjects/blob/master/T06_passwords_generator_ui/images_for_explaination/1.png)
 
